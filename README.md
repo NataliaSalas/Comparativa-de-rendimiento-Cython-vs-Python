@@ -1,1 +1,3 @@
 # Comparativa-de-rendimiento-Cython-vs-Python
+
+Python al ser un lenguaje de programación interpretado, es lento a comparación del lenguaje de programación C que es compilado. Para resolver este problema se puede traducir el código Python a C y compilándolo con Cython y así obtener de esta forma considerables mejoras del rendimiento. Cython es un lenguaje de programación que fusiona Python con el sistema de tipos estáticos de C y C ++. Este traduce el código fuente de Cython a un código fuente de C eficiente y se puede compilar en un módulo de extensión de python o en un ejecutable independiente.
