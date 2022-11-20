@@ -33,7 +33,7 @@ A continuación, se encontrarán tres carpetas, cada una contiene un algoritmo:
 > - *setup.py:* Este fichero es el crea el objeto compartido y genera la extensión de Cython al compilarlo.
 > - *Makefile:* Este archivo define un conjunto de tareas a ejecutar, contiene las órdenes que debe ejecutar la utilidad make
 
-##Ejecución:
+## Ejecución:
 En primera instancia, estos ficheros se deben ejecutar en un entorno Linux. Para poder ejecutar los algoritmos por separado, se deben seguir los siguientes pasos: 
 1. En una terminal ejecute el comando ```make all```, con este se creara el objeto compartido y compila los archivos ```.py``` y ```.pyx```..
 2. Luego ejecute el comando ```python3 principal.py```, con este obtendrá los tiempos de ejecución de los lenguajes guardados en un archivo ```.csv```.
