@@ -11,7 +11,7 @@ Python al ser un lenguaje de programación interpretado, es lento a comparación
 
 El objetivo principal de la siguiente practica de laboratorio es hacer una comparativa cython/python para evaluar el rendimiento de estos lenguajes con la implementación de tres algoritmos diferentes. Se elaboro una batería de experimentos para controlar el ruido gaussiano y posteriormente evaluar el tiempo de ejecución al utilizar el mismo algoritmo en cython y python. Para cada ejercicio a su vez se realizó una comparativa con la primera versión de cython y una versión de cython mejorada.
 
-A continuación, se encontrarán tres carpetas, cada una contiene un algoritmo:
+A continuación, se encontrarán un archivo Jupyter Notebook, donde se encuentra el análisis realizado de la comparativa de rendimiento Python vs Cython y además se encuentran tres carpetas, cada una contiene un algoritmo con sus respectivos ficheros:
 - **DistanceLevenshtein:** Mide el número mínimo de ediciones de un solo carácter necesarias para cambiar una palabra por la otra. En esta carpeta se encuentran los diferentes ficheros en los que se encuentran la implementación y solución del problema:
 > - *levenshtein_cy.pyx:* En este archivo se encuentra la resolución del algoritmo en lenguaje de programación Cython 
 > - *levenshtein_py.py:* En este archivo se encuentra la resolución del algoritmo en lenguaje de programación Python 
